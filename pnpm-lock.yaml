@@ -27,8 +27,8 @@ importers:
         specifier: 1.8.3
         version: 1.8.3
       '@biomejs/wasm-web':
-        specifier: https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@5b6e55b
-        version: https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@5b6e55b
+        specifier: https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@af3b550
+        version: https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@af3b550
       '@codemirror/lang-css':
         specifier: 6.3.0
         version: 6.3.0(@codemirror/view@6.34.1)
@@ -120,14 +120,14 @@ importers:
         specifier: 8.4.47
         version: 8.4.47
       postcss-mixins:
-        specifier: ^11.0.2
+        specifier: 11.0.3
         version: 11.0.3(postcss@8.4.47)
       prettier:
         specifier: 3.3.3
         version: 3.3.3
       prettier-plugin-svelte:
-        specifier: 3.2.6
-        version: 3.2.6(prettier@3.3.3)(svelte@4.2.19)
+        specifier: 3.2.7
+        version: 3.2.7(prettier@3.3.3)(svelte@4.2.19)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -402,9 +402,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@biomejs/wasm-web@https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@5b6e55b':
-    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@5b6e55b}
-    version: 0.0.0-rev.5b6e55b942bd1a47973547214a7c379e15ec8a20
+  '@biomejs/wasm-web@https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@af3b550':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@af3b550}
+    version: 0.0.0-rev.af3b550c0f47f17735cae0493ab01b67940a8456
 
   '@braintree/sanitize-url@6.0.4':
     resolution: {integrity: sha512-s3jaWicZd0pkP0jf5ysyHUI/RE7MHos6qlToFcGWXVp+ykHOy77OUMrfbgJ9it2C5bow7OIQwYYaHjk9XlBQ2A==}
@@ -3309,8 +3309,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-plugin-svelte@3.2.6:
-    resolution: {integrity: sha512-Y1XWLw7vXUQQZmgv1JAEiLcErqUniAF2wO7QJsw8BVMvpLET2dI5WpEIEJx1r11iHVdSMzQxivyfrH9On9t2IQ==}
+  prettier-plugin-svelte@3.2.7:
+    resolution: {integrity: sha512-/Dswx/ea0lV34If1eDcG3nulQ63YNr5KPDfMsjbdtpSWOxKKJ7nAc2qlVuYwEvCr4raIuredNoR7K4JCkmTGaQ==}
     peerDependencies:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
@@ -4429,7 +4429,7 @@ snapshots:
   '@biomejs/cli-win32-x64@1.8.3':
     optional: true
 
-  '@biomejs/wasm-web@https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@5b6e55b': {}
+  '@biomejs/wasm-web@https://pkg.pr.new/biomejs/biome/@biomejs/wasm-web@af3b550': {}
 
   '@braintree/sanitize-url@6.0.4': {}
 
@@ -8081,7 +8081,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-svelte@3.2.6(prettier@3.3.3)(svelte@4.2.19):
+  prettier-plugin-svelte@3.2.7(prettier@3.3.3)(svelte@4.2.19):
     dependencies:
       prettier: 3.3.3
       svelte: 4.2.19
